@@ -1,0 +1,16 @@
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  min-height: 100vh;
+}
+
+.empty {
+  background: linear-gradient(0, #555, #333);
+  flex: 1;
+}
+.filled {
+  background: linear-gradient(0, #FEA, #FE5);
+  box-shadow: 0 -2px 32px #ED5;
+  flex: 1;
+}
